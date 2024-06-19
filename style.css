@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 14, 73);
+    background-image: url(monochrome-watercolor-galaxy-wallpaper_23-2148830315.avif); 
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.intro{
+    margin:10px auto 0;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.box{
+     background-color:rgba(103,156,174,255);
+     height:90vmin;
+     width:50vmax;
+     box-sizing: border-box;
+     border:5px solid rgba(57,114,131,255);
+     border-radius: 15px;
+     margin: 10px auto 0;
+     padding:20px;
+     opacity: 0.8;
+}
+.box h1{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    color: black;
+}
+.quiz{
+    padding:20px 0 ;
+    color:  black;
+}
+.opt{
+    background-color:white;
+    border-radius: 10px;
+    color:rgba(9,23,36,255);
+    font-weight: bold;
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:2px solid black;
+    cursor: pointer;
+}
+.opt:hover:not([disabled]){
+    background-color:rgba(57,114,131,255);
+    color:  black;
+}
+.opt:disabled{
+ cursor:no-drop;
+}
+#next{
+background-color: black;
+color: white;
+font-weight: bold;
+margin: 10px auto 0;
+padding: 10px;
+width:30%;
+border-radius: 10px;
+border:2px solid black;
+cursor: pointer;
+display: none;
+}
+.correct{
+    background: rgb(208, 251, 144);
+}
+.incorrect{
+    background: rgb(250, 104, 104);
+}
+@media screen and (max-width:600px){
+    body{background-image: url(czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTMtcC0wMDI4YS14LmpwZw.webp);
+        background-size: cover;
+    }
+    .intro{
+        background-color: black;
+        color: white;
+        opacity: 0.7;
+        margin:10px auto 10px;
+        font-size:30px;
+    }
+    .box{
+        background-color: rgba(31,42,59,255);
+        border:5px solid rgba(221,224,221,255);
+        height:80vmax;
+        width:80vmin;
+    }
+    .box h1{
+        border-bottom: 2px solid white;
+        padding-bottom: 20px;
+        color: white;
+    }
+    .quiz{
+        color: white;
+    }
+    .opt{
+        width:50%;
+    }
+    .opt:hover:not([disabled]){
+        background-color:rgba(15,34,60,255);
+        color: white;
+    }
+    .options{
+        display: flex;
+        flex-flow: column wrap;
+        column-gap: 10px;
+    }
+    
+}
