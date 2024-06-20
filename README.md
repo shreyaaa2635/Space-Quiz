@@ -1,5 +1,5 @@
 # Space-Quiz
-Space-Quiz is a responsive quiz website that was built as a project assigned by the IEEE club of NIT-P. The tech-stacks used for the project are namely: HTML5, CSS3 and JavaScript. It provides you with a quiz based on space.
+Space-Quiz is a responsive quiz website that was built as a project assigned by the IEEE club of NIT-P. The tech-stacks used for the project are namely: HTML5, CSS3 and JavaScript. The website provides you with a quiz based on space.
 # Features
 •	User- Friendly Interface
 
